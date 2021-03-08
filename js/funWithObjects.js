@@ -12,7 +12,7 @@ renderPeople();
 
 function renderPeople(person1,person2,person3,person4,person5){
 
-    
+    //add the persons to the div with id people
 
 }
 
@@ -45,6 +45,10 @@ function Person(name, age, hobby){
     this.name = name;
     this.age = age;
     this.hobby = hobby;
+
+    //add method that shouts introduces the person like: hello my name is name, my age is age and my main hobby is hobby
+
+
 }
 /*
 function personCreateFunction(name, age, hobby){
