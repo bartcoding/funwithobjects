@@ -80,25 +80,22 @@ console.log(person4);
 console.log(person5);
 
 function Person(name, age, hobby){
+    
     this.name = name;
     this.age = age;
     this.hobby = hobby;
     this.introduction = function (){
         alert("Hi! nice to meet you, my name is " + this.name + ", I am " + this.age + "years old and my hobby is: " + this.hobby);
     };
-    //add method that shouts introduces the person like: hello my name is name, my age is age and my main hobby is hobby
-
-
 }
+
+
 /*
 function personCreateFunction(name, age, hobby){
     let personObject = {};
     personObject.name = name;
     personObject.age = age;
     personObject.hobby = hobby;
-
-    let otherPersonObject = personObject;
-    personObject = 'tomatenpuree';
 
     return otherPersonObject;
 }
